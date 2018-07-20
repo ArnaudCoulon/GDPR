@@ -6,7 +6,7 @@ from datetime import datetime
 
 path = yourpath
 root = yourroot
-df = pd.DataFrame(columns=list("ABCD"))
+df = pd.DataFrame(columns=list("ABCDE"))
 
 #Loop walking throught the path. Gets Name, last modification date, dir and size' file
 
