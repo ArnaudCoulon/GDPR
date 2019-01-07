@@ -18,6 +18,7 @@ for root,dirs,files in os.walk(root):
             print(i)
             i=i+1
         except OSError:
+            #OS error management
             print(0)
 #Loading in an Excel file
 df.to_excel(path)
